@@ -1,0 +1,36 @@
+/* app css stylesheet */
+
+body {
+  padding-top: 20px;
+}
+
+.incidents {
+  list-style: none;
+}
+
+.thumb {
+  float: left;
+  margin: -1em 1em 1.5em 0em;
+  padding-bottom: 1em;
+  height: 100px;
+  width: 100px;
+}
+
+.incidents li {
+  clear: both;
+  /*height: 100px;*/
+  padding-top: 2px;
+}
+
+td{
+padding-right: 15px;
+}
+
+.table-short-descr {
+	width: 280px;
+}
+
+.ico-add {
+	background-position: 0 -72px;
+}
+

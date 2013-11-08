@@ -1,0 +1,16 @@
+﻿[
+    {
+        "age": 0, 
+        "id": "2910", 
+        "imageUrl": "img/phones/motorola-xoom-with-wi-fi.0.jpg", 
+        "shortDescription": "Недоступность внешнего сайта", 
+        "techResolution": "Выполнен перезапуск сервисов  по инструкции"
+    }, 
+    {
+        "age": 1, 
+        "id": "2911", 
+        "imageUrl": "img/phones/motorola-xoom.0.jpg", 
+        "shortDescription": "Недостаток свободной памяти на сервере", 
+        "techResolution": "Один из процессов IIS занимал много памяти. Выполнен перезапуск"
+    } 
+]

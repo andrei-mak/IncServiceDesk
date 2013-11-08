@@ -1,0 +1,41 @@
+﻿<nav class="navbar navbar-default col-md-10 col-md-offset-1" role="navigation">
+<!-- Brand and toggle get grouped for better mobile display -->
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand" href="#">ServiceDesk</a>
+  </div>
+  <!-- Collect the nav links, forms, and other content for toggling -->
+  <div class="collapse navbar-collapse navbar-ex1-collapse">
+	<ul class="nav navbar-nav navbar-right">
+      <li><a href="#/"><span class="glyphicon glyphicon-chevron-left"></span> Back</a></li>
+	</ul>
+  </div><!-- /.navbar-collapse -->
+</nav>
+
+<div class="col-md-8 col-md-offset-1">
+	<!-- <div class="alert alert-info">Инцидент <span class="badge">{{incidentId}}</span></div> -->
+	<h4 class="text-primary">Инцидент {{incidentId}}</h4>
+	<div>&nbsp;</div>
+	
+	<div class="panel panel-info">
+		<div class="panel-heading">Краткое описание:</div>
+		<div class="panel-body">
+		<p>{{incident.shortDescription}}</p>
+		</div>
+	</div>
+	
+	<div class="panel panel-info">
+		<div class="panel-heading">Техническое заключение:</div>
+		<div class="panel-body">
+		<p>{{incident.techResolution}}</p>
+		</div>
+	</div>
+	
+	<div><a href="#/" class="btn btn-default">Back</a></div>
+	<br>
+</div>
